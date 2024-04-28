@@ -450,7 +450,7 @@ namespace LombaxGuy.EasyNumbering
         /// <returns>Returns 'true' if the template is valid and 'false' otherwise.</returns>
         private bool VerifyTemplate()
         {
-            return _template.Length > 0 && _template.Contains('0');
+            return _template.Length > 0 && _template.Contains("0");
         }
 
         #endregion
